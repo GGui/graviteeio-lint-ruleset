@@ -1,0 +1,7 @@
+rules:
+  info-contact:
+    description: "Info object should contain `contact` object."
+    query: "info.contact"
+    severity: Error
+    validator:
+      func: defined
