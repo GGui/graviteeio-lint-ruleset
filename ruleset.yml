@@ -1,6 +1,8 @@
 rules:
   info-contact:
     description: "Info object should contain `contact` object."
+    formats:
+     - oas3
     query: "info.contact"
     severity: Error
     validator:
